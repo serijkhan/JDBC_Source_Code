@@ -1,0 +1,13 @@
+public class Test extends User{
+	int rank;
+	public static void main(String[] args) {
+		
+		User obj = new User();
+		obj.setId(101);
+		obj.setName("khan");
+		
+		//obj.rank=102;
+		 			
+	}
+}
+

@@ -1,0 +1,16 @@
+public class student2 {
+public static void main(String[] args) {
+	System.out.println("Hii,I am student");
+	Student s1 = new Student();
+	s1.hello();
+	
+	Student.greet();
+}
+    void Hello() {
+    	System.out.println("Hello My Friends...");
+    }
+    
+    static void great() {
+    	System.out.println("Good Evening...");
+}
+}

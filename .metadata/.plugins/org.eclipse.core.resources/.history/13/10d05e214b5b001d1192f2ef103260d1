@@ -1,0 +1,15 @@
+public class Test extends User{
+	public static void main(String[] args) {
+		
+		Account obj = new Account();
+		obj.setAccNum(797979);
+		obj.setName("sameer");
+		
+		int AccNum= obj.getAccNum();
+		String name = obj.getName();
+		 
+		System.out.println(AccNum+"--"+name);
+			
+		}
+}
+

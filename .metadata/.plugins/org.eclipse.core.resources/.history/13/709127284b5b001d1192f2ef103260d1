@@ -1,0 +1,16 @@
+public class Test extends User{
+	int rank;
+	public static void main(String[] args) {
+		
+		User obj = new User();
+		obj.id=101;
+		obj.name="khan";
+		
+		int AccNum= obj.getAccNum();
+		String name = obj.getName();
+		 
+		System.out.println(AccNum+"--"+name);
+			
+		}
+}
+

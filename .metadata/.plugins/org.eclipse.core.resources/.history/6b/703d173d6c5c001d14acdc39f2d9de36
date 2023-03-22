@@ -1,0 +1,30 @@
+package com.shameer.main;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Shoes {
+
+	public static void main(String[] args) {
+		
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader (isr);
+		System.out.println("Enter Brand Name");
+		String Brand = br.readLine();
+		
+		switch (Brand){
+		case "Nike";System.out.println("Just do it");
+		 break;
+		case "Adidas";System.out.println("Impossible is nothings");
+		 break;
+		case "Puma";System.out.println("forever faster");
+		 break;
+		case "Reebok";System.out.println("I am what I am");
+		 break;
+		default; System.out.println("brand not found");
+		 
+		}
+		
+	}
+
+}

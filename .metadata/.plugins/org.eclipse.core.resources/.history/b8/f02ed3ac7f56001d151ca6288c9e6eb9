@@ -1,0 +1,19 @@
+package com.shameer;
+class player{
+	int id;
+	String name;
+	int age;
+}
+public class Driver3 {
+	void print (Player p1) {
+		System.out.println(p1.id +"--" + p1.name + "" + p1.age);
+	}
+	public static void main(String[] args) {
+		Driver3 d = new Driver3();
+		
+		Player p2 = new Player();
+		d.print(p2);
+	}
+	}
+
+
